@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Eco-light</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	</head>
+
+
+	<body>
+
+		<header>	
+			<div class="container">
+				<h1 class="tituto"> Eco-light</h1>
+			</div>
+		</header>
+		<main>	
+				<section class="container">
+					<h2>TABELA DE CONSUMO</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Aparelho</th>
+							<th>Horas por dia - USO</th>
+							<th>Dias de Uso - NO MÊS</th>
+							<th>Potencia em Whatts</th>
+							<th>Total do consumo</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-itens">
+						<tr class="item" id="primeiro-paciente">
+							<td class="info-aparelho" >TV</td>
+							<td class="info-horas">10</td>
+							<td class="info-uso">30</td>
+							<td class="info-potencia">1000</td>
+							<td class="info-consumo">0</td>
+						</tr>
+
+						<tr class="item" id = "segundo-paciente" >
+							<td class="info-aparelho" >Computador</td>
+							<td class="info-horas">15</td>
+							<td class="info-uso">12</td>
+							<td class="info-potencia">500</td>
+							<td class="info-consumo">0</td>
+						</tr>	
+
+						<tr class="item" id = "terceiro-paciente">
+							<td class="info-aparelho" >Geladeira</td>
+							<td class="info-horas">24</td>
+							<td class="info-uso">30</td>
+							<td class="info-potencia">2000</td>
+							<td class="info-consumo">0</td>
+						</tr>
+
+						<tr class="item" id = "quarto-paciente" >
+							<td class="info-aparelho">Ar condicionado</td>
+							<td class="info-horas">15</td>
+							<td class="info-uso">24</td>
+							<td class="info-potencia">1000</td>
+							<td class="info-consumo">0</td>
+						</tr>
+						<tr class="item" id = "quinto-paciente" >
+							<td class="info-aparelho" >Celular</td>
+							<td class="info-horas">18</td>
+							<td class="info-uso">30</td>
+							<td class="info-potencia">50</td>
+							<td class="info-consumo">0</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</section>
+		</main>
+		<!-- ... -->
+<section class="container">
+    <h2 id="titulo-form">Adicionar um Aparelho</h2>
+	<ul id = "mensagens-erro"> 
+
+	</ul>
+    <form id="form-adiciona">
+        <div class="grupo">
+            <label for="potencia">Potencia - WATTS</label>
+            <input id="potencia" name="potencia" type="text" placeholder="digite a potencia em Whatts" class="campo">
+        </div>
+        <div class="grupo">
+            <label for="horas de uso">Horas por dia - USO</label>
+            <input id="horas" name="horas-dia" type="text" placeholder="digite as horas por dia" class="campo campo-medio">
+        </div>	
+        <div class="dia de uso">
+            <label for="altura">Dias de Uso - NO MÊS</label>
+            <input id="uso" name="dias-uso" type="text" placeholder="digite os dias de uso" class="campo campo-medio">
+        </div>
+		<div class="aparelho">
+            <label for="altura">Aparelho</label>
+            <input id="aparelho" name="aparelho" type="text" placeholder="digite o aparelho" class="campo campo-medio">
+        </div>
+        
+        <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+    </form>
+
+	
+</section>
+
+        <script src =C:\Users\pauli\OneDrive\Documentos\E-light\js\calcula-consumo.js></script>
+		<script src =C:\Users\pauli\OneDrive\Documentos\E-light\js\formulario.js></script>
+		<script src =C:\Users\pauli\OneDrive\Documentos\E-light\js\principalConsumo.js> </script>
+		<script src =C:\Users\pauli\OneDrive\Documentos\E-light\js\remover-item.js> </script>
+
+	</body>
+</html>
